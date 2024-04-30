@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="381.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="383.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="addButton" layoutX="14.0" layoutY="35.0" mnemonicParsing="false" onAction="#addnewbook" prefHeight="47.0" prefWidth="159.0" text="Add New Book" />
+            <Button fx:id="processButton" layoutX="14.0" layoutY="272.0" mnemonicParsing="false" onAction="#openprocesssales" prefHeight="47.0" prefWidth="159.0" text="Process Sales" />
+            <Button fx:id="manageButton" layoutX="418.0" layoutY="35.0" mnemonicParsing="false" onAction="#openmanageinventory" prefHeight="47.0" prefWidth="159.0" text="Manage Inventory" />
+            <Button fx:id="customerButton" layoutX="212.0" layoutY="271.0" mnemonicParsing="false" onAction="#opencutomermanagement" prefHeight="47.0" prefWidth="176.0" text="Customer Management" />
+            <Button fx:id="exitButton" layoutX="471.0" layoutY="258.0" mnemonicParsing="false" onAction="#exit" prefHeight="47.0" prefWidth="114.0" text="Exit" />
+         </children>
+         <effect>
+            <Blend />
+         </effect>
+      </AnchorPane>
+   </children>
+</VBox>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="291.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="294.0" prefWidth="550.0">
+         <children>
+            <Label layoutX="4.0" layoutY="7.0" prefHeight="34.0" prefWidth="150.0" text="Book Title">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+               </padding>
+            </Label>
+            <Label layoutX="4.0" layoutY="68.0" prefHeight="34.0" prefWidth="150.0" text="Author">
+               <padding>
+                  <Insets left="10.0" right="10.0" top="20.0" />
+               </padding>
+            </Label>
+            <Label layoutX="4.0" layoutY="124.0" prefHeight="34.0" prefWidth="94.0" text="Quantity">
+               <padding>
+                  <Insets left="10.0" right="10.0" top="20.0" />
+               </padding>
+            </Label>
+            <Label layoutX="14.0" layoutY="174.0" prefHeight="34.0" prefWidth="94.0" text="Price">
+               <padding>
+                  <Insets left="10.0" right="10.0" top="20.0" />
+               </padding>
+            </Label>
+            <Label layoutX="14.0" layoutY="231.0" prefHeight="34.0" prefWidth="119.0" text="Subtotal">
+               <padding>
+                  <Insets left="10.0" right="10.0" top="20.0" />
+               </padding>
+            </Label>
+            <TextField layoutX="154.0" layoutY="7.0" prefHeight="48.0" prefWidth="215.0">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+               </padding>
+            </TextField>
+            <TextField layoutX="154.0" layoutY="63.0" prefHeight="48.0" prefWidth="215.0">
+               <padding>
+                  <Insets left="10.0" right="10.0" top="20.0" />
+               </padding>
+            </TextField>
+            <TextField layoutX="154.0" layoutY="119.0" prefHeight="48.0" prefWidth="127.0">
+               <padding>
+                  <Insets left="10.0" right="10.0" top="20.0" />
+               </padding>
+            </TextField>
+            <TextField layoutX="154.0" layoutY="174.0" prefHeight="48.0" prefWidth="127.0">
+               <padding>
+                  <Insets left="10.0" right="10.0" top="20.0" />
+               </padding>
+            </TextField>
+            <TextField layoutX="154.0" layoutY="231.0" prefHeight="48.0" prefWidth="127.0">
+               <padding>
+                  <Insets left="10.0" right="10.0" top="20.0" />
+               </padding>
+            </TextField>
+            <Button fx:id="myTotalButton" layoutX="396.0" layoutY="231.0" mnemonicParsing="false" onAction="#calculatesubtotal" prefHeight="48.0" prefWidth="139.0" text="Total">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font name="Roboto" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
